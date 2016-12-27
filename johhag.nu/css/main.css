@@ -10,16 +10,17 @@ header {
   header h1 {
     color: white;
     font-size: 45px;
-    text-align: center;
     margin: 0;
     display: inline-block;
     position: absolute;
     top: 0; }
   header .socialmedia {
     display: inline-block;
-    text-align: left; }
+    margin: 0; }
     header .socialmedia a {
-      display: inline-block; }
+      display: inline-block;
+      padding: 0;
+      margin: 0; }
     header .socialmedia .fb {
       width: 35px;
       margin: 10px; }
@@ -44,7 +45,7 @@ main {
 
 .para-2 {
   background-image: url("../img/para-2.jpg");
-  min-height: 40vh; }
+  min-height: 100vh; }
 
 /*.para-3  {
   background-image: url("../img/DSC01107.jpg");
@@ -60,7 +61,12 @@ main {
   .heading h2 {
     color: #fff;
     font-size: 50px;
-    text-shadow: 2px 2px #000;
+    text-shadow: 1px 1px #000;
     margin: 0; }
+  .heading p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    text-shadow: 1px 1px #000; }
 
 /*# sourceMappingURL=main.css.map */

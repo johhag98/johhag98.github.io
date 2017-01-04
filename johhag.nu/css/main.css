@@ -61,12 +61,12 @@ main {
   .heading h2 {
     color: #fff;
     font-size: 50px;
-    text-shadow: 1px 1px #000;
+    text-shadow: 2px -2px #000;
     margin: 0; }
   .heading p {
     color: white;
     font-size: 25px;
     margin: 0;
-    text-shadow: 1px 1px #000; }
+    text-shadow: 1px -1px #000; }
 
 /*# sourceMappingURL=main.css.map */

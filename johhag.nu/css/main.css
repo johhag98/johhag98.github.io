@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   padding: 0;
@@ -7,26 +10,55 @@ body {
 header {
   padding: 0;
   background-color: #000032; }
-  header h1 {
-    color: white;
-    font-size: 45px;
+  header div {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    vertical-align: middle; }
+  header ul {
+    list-style-type: none;
     margin: 0;
-    display: inline-block;
-    position: absolute;
-    top: 0; }
-  header .socialmedia {
-    display: inline-block;
+    padding: 0; }
+  header .social {
+    float: left; }
+  header li img {
+    height: 30px;
+    margin: 15px;
+    margin-right: 0; }
+  header img {
+    display: block; }
+  header h1 {
+    font-size: 45px;
     margin: 0; }
-    header .socialmedia a {
-      display: inline-block;
-      padding: 0;
-      margin: 0; }
-    header .socialmedia .fb {
-      width: 35px;
-      margin: 10px; }
-    header .socialmedia .twitter {
-      width: 35px;
-      margin: 10px; }
+  header h1 a {
+    color: #FFF;
+    text-decoration: none; }
+  header nav {
+    float: right; }
+  header .menu {
+    display: inline-block; }
+  header .menu a {
+    color: #fff;
+    font-size: 30px;
+    margin: 5px 20px 0 20px;
+    position: relative; }
+    header .menu a:before {
+      background-color: #fff;
+      bottom: 0;
+      content: "";
+      height: 2px;
+      left: 0;
+      position: absolute;
+      visibility: hidden;
+      width: 100%;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s; }
+    header .menu a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
 
 main {
   height: 100vh; }

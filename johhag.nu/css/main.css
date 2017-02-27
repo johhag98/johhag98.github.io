@@ -39,9 +39,10 @@ header {
     display: inline-block; }
   header .menu a {
     color: #fff;
-    font-size: 30px;
-    margin: 5px 20px 0 20px;
-    position: relative; }
+    font-size: 26px;
+    margin: 0px 10px;
+    position: relative;
+    text-decoration: none; }
     header .menu a:before {
       background-color: #fff;
       bottom: 0;
@@ -85,20 +86,23 @@ main {
 }*/
 .heading {
   position: absolute;
-  right: 25%;
   top: 35%;
-  width: 100%;
   text-align: center;
-  color: #000; }
+  color: #000;
+  margin-left: 5px; }
   .heading h2 {
     color: #fff;
     font-size: 50px;
-    text-shadow: 2px -2px #000;
+    text-shadow: 2px -2px  20px #000;
     margin: 0; }
   .heading p {
     color: white;
     font-size: 25px;
     margin: 0;
-    text-shadow: 1px -1px #000; }
+    text-shadow: 1px -1px 20px #000; }
+
+@media (max-width: 815px) and (min-width: 700px) {
+  header .menu a {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,32 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/main.css">
-
   <title>Johan Hagströmer</title>
 </head>
 <body>
-  <header class="row--no-gutter">
-    <div class="col--1-of-3">
-      <ul>
-        <li class="social"><a href="#"><img src="../img/_f_logo_online/png/FB-f-Logo__blue_100.png" alt="Facebook"></a></li>
-        <li class="social"><a href="#"><img src="../img\Twitter_Starter_Kit\Twitter_Social_Icon_Rounded_Square/Twitter_Social_Icon_Rounded_Square_Color.png" alt="Twitter"></a></li>
-        <li class="social"></li>
-        <li class="social"></li>
-      </ul>
-    </div><div class="col--1-of-3">
-      <h1><a href="#">johhag.nu</a></h1>
-    </div><div class="col--1-of-3">
+
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card-2" style="background-color: rgb(0,0,50);">
+      <!--Socialamedier-->
+      <!--FB-->
       <nav>
-        <ul>
-          <li class="menu"><a href="#">Blogg</a></li>
-          <li class="menu"><a href="#">Om</a></li>
-          <li class="menu"><a href="#">Kontakt</a></li>
-        </ul>
+        <a href="#" class="w3-left w3-bar-item w3-padding-0"><img src="../img/_f_logo_online/png/FB-f-Logo__blue_100.png" alt="Facebook" class="social w3-hide-small"></a>
+      <!--Twitter-->
+        <a href="#" class="w3-left w3-bar-item w3-padding-0"><img src="../img\Twitter_Starter_Kit\Twitter_Social_Icon_Rounded_Square/Twitter_Social_Icon_Rounded_Square_Color.png" alt="Twitter" class="social w3-hide-small"></a>
+      <!-- Spotify -->
+        <a href="#" class="w3-left w3-bar-item w3-padding-0"><img src="../img/spotify-icons-logos\icons\01_RGB\02_PNG\Spotify_Icon_RGB_Green.png" alt="Spotify" class="social w3-hide-small"></a>
+      <!-- Instagram -->
+        <a href="#" class="w3-left w3-bar-item w3-padding-0"><img src="../img/GlyphLogo_May2016_online\instagram-2016.svg" alt="Spotify" class="social w3-hide-small"></a>
+      </nav>
+      <!--Stora johhag.nu knappen -->
+      <div class="bredd">
+      <a href="#" class="w3-center w3-bar-item w3-padding-0" style="width:100%;"><h1>johhag.nu</h1></a>
+      </div>
+      <!--Knapp för mindre skärmar-->
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu" style="font-size:24px;"><i class="fa fa-bars"></i></a>
+      <!--Meny knappar-->
+      <nav>
+        <a href="#" class="w3-bar-item w3-button w3-padding-xlarge w3-hide-small w3-right">Blogg</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-xlarge w3-hide-small w3-right">Kontakt</a>
+        <a href="#band" class="w3-bar-item w3-button w3-padding-xlarge w3-hide-small w3-right">Om</a>
       </nav>
     </div>
-  </header>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:60px; background-color: rgb(0,0,50);">
+    <nav>
+      <a href="#about" class="w3-bar-item w3-button w3-padding-large">Om</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Kontakt</a>
+      <a href="#blogg" class="w3-bar-item w3-button w3-padding-large">Blogg</a>
+    </nav>
+  </div>
+
+
+
   <main>
     <div class="para-1">
       <div class="heading">
@@ -39,13 +63,40 @@
     </div>
 
     <div class="para-2">
-      <div>
-
+      <div class="about">
+        <h2>Vem är då jag?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque minus in minima aliquam doloribus rem dolorum. Iusto quaerat accusamus veniam adipisci sapiente officiis ab, ipsa facere, quibusdam necessitatibus quo, quidem deserunt iste labore obcaecati sunt error repellendus magnam maiores eaque. Voluptates, natus ipsam cum molestias consequatur magni suscipit ipsum nostrum eligendi, ea laborum accusantium ullam? Nisi eligendi animi ipsam autem quae molestias, iste esse aliquid numquam accusamus voluptates distinctio dolor sint corporis, accusantium doloribus ipsum ullam! Labore totam sit vel deserunt voluptas, quas dicta, magni nisi corporis possimus. Aperiam laborum voluptates debitis illum id iste vero voluptatem porro adipisci. Sed! <a href="#">Läs mer</a></p>
+      </div>
+    </div>
+    <div class="para-3">
+      <div class="about">
+        <h2>Oreintering</h2>
+        <p>Orietnering är en sport jag håller mycket varmt om hjärtat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ratione aut ut quasi, incidunt distinctio explicabo voluptatem omnis, odit autem ex consectetur dolorem corporis officiis doloribus dolore voluptates alias, rerum, nisi repellendus. Cum laborum enim dolores eligendi animi molestiae error aut, voluptas at corporis rem non dignissimos quos, maxime ipsum.</p>
       </div>
     </div>
   </main>
   <fotter>
 
   </fotter>
+</div>
+<script type="text/javascript">
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+  } else {
+      x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+if (event.target == modal) {
+  modal.style.display = "none";
+}
+}
+</script>
 </body>
 </html>

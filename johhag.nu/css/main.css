@@ -3,7 +3,7 @@
           box-sizing: border-box; }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Quattrocento Sans",sans-serif;
   padding: 0;
   margin: 0;
   border-collapse: collapse; }
@@ -68,23 +68,36 @@ main {
   top: 20%;
   text-align: center;
   color: black;
-  margin-left: 10px;
-  width: 50%; }
+  margin-left: 60px;
+  width: 40%; }
   .about h2 {
     font-size: 40px;
     margin: 0;
     color: white;
     text-shadow: 2px -2px  20px #000; }
-  .about p {
-    font-size: 20px;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0.7);
+  .about .textarea {
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
     padding: 10px; }
+  .about p {
+    font-size: 18px;
+    margin: 0; }
+  .about a {
+    color: #000032; }
+  .about a:hover {
+    border-bottom: 2px solid black; }
 
+@media (max-width: 1100px) {
+  .about {
+    width: 63%; } }
 @media (max-width: 700px) {
   .bredd {
     width: calc(100% - 80px);
-    float: left; } }
+    float: left; }
+
+  .about {
+    top: 10%;
+    width: 90%;
+    margin-left: 5vw; } }
 
 /*# sourceMappingURL=main.css.map */

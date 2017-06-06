@@ -23,6 +23,8 @@ a {
   display: inline-block;
   text-align: center;
   float: left; }
+  .bredd h1 {
+    margin: 0; }
 
 main {
   height: 100vh; }
@@ -86,6 +88,12 @@ main {
     color: #000032; }
   .about a:hover {
     border-bottom: 2px solid black; }
+
+footer {
+  background-color: #000032;
+  color: white; }
+  footer p {
+    margin: 0; }
 
 @media (max-width: 1100px) {
   .about {

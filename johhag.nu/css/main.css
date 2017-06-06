@@ -29,7 +29,7 @@ a {
 main {
   height: 100vh; }
 
-.para-1, .para-2, .para-3 {
+.para-1, .para-2, .para-3, .para-4 {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -47,6 +47,10 @@ main {
 
 .para-3 {
   background-image: url("../img/para-3.jpg");
+  min-height: 100vh; }
+
+.para-4 {
+  background-image: url("../img/para-4.jpg");
   min-height: 100vh; }
 
 .heading {
@@ -88,6 +92,32 @@ main {
     color: #000032; }
   .about a:hover {
     border-bottom: 2px solid black; }
+
+.aboutTextarea {
+  background-color: white;
+  color: black;
+  padding: 10px; }
+  .aboutTextarea .wrapperAbout {
+    width: 60%;
+    margin: auto; }
+  .aboutTextarea h2 {
+    border-bottom: 2px solid #999;
+    font-size: 45px;
+    padding-bottom: 10px;
+    margin-bottom: 25px; }
+  .aboutTextarea p {
+    margin: 0;
+    font-size: 16px; }
+  .aboutTextarea .bild {
+    text-align: center;
+    margin: 10px 0; }
+    .aboutTextarea .bild p {
+      font-size: 14px;
+      border-bottom: 1px solid #eee;
+      padding: 10px 0; }
+  .aboutTextarea img {
+    width: 100%;
+    margin-top: 12px; }
 
 footer {
   background-color: #000032;
